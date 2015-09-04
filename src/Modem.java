@@ -9,6 +9,7 @@ public class Modem {
     private Board modemBoard;
     private Functionality modemFunctionality;
 
+
     public Modem(String modemBrand, String modemName, String modemSerial, int countInputs,
                  Size modemSize, Board modemBoard, Functionality modemFunctionality) {
         this.modemBrand = modemBrand;
