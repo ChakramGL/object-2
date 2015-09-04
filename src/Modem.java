@@ -22,7 +22,11 @@ public class Modem {
     }
 
 
+    public void showInfo (){
+        System.out.println("Router brand is " + modemBrand + "\nRouter name is " + modemName + "\nRouter serial: " + modemSerial +
+                "\nInputs: " + countInputs);
 
+    }
     public String getModemBrand() {
         return modemBrand;
     }

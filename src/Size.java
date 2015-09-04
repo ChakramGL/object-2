@@ -9,6 +9,11 @@ public class Size {
         this.depth = depth;
     }
 
+    public void showInfo(){
+        System.out.println("-----------------------------------------------------------------------------------");
+        System.out.println("Dimensions router: \nWidth: " + width + "\nHeight: " + height + "\nDepth: " + depth);
+    }
+
     public int getWidth() {
         return width;
     }
